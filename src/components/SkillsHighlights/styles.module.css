@@ -1,0 +1,138 @@
+.skillhights-wrapper {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -176px;
+}
+.layer-bg {
+  width: 100%;
+  margin-bottom: -0.8px;
+}
+.layer-bg svg {
+  width: 100%;
+  height: 100%;
+}
+
+.content-wrapper {
+  background-color: #fe9ab2;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  min-height: 607px;
+  padding-bottom: 227px;
+  position: relative;
+}
+
+.content-wrapper h2 {
+  color: #392d20;
+  text-align: center;
+  font-family: 'TT Hoves Pro Trial Bold';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+.swiper-container {
+  padding: 0 24px;
+}
+.insta-post {
+  width: 225px;
+  height: 225px;
+}
+.insta-post img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.skills-card {
+  background: #fdf3dd;
+  padding: 24px;
+  border-radius: 30px;
+  border: 1px solid #000;
+  height: 100%;
+  min-height: 365px;
+}
+.skill-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.skill-heading {
+  color: var(--Fonts-Font-1, #392d20);
+  text-align: center;
+  font-family: 'TT Hoves Pro Trial DemiBold';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+.planticon {
+  width: 43px;
+  height: 42px;
+  position: absolute;
+  top: 0px;
+}
+.skillreversering {
+  width: 30px;
+  height: 41px;
+  position: absolute;
+  top: 15px;
+  left: 39%;
+}
+.skillringup {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  width: 67px;
+  height: 66px;
+}
+.melonicon {
+  width: 59px;
+  height: 51px;
+  position: absolute;
+  top: 0;
+  right: 28%;
+}
+@media (max-width: 1200px) {
+  .skills-card {
+    height: 100%;
+    min-height: 408px;
+  }
+}
+@media (max-width: 767px) {
+  .skillhights-wrapper {
+    margin-bottom: -110px;
+  }
+  .content-wrapper h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .swiper-container {
+    padding: 0 0;
+  }
+  .content-wrapper {
+    padding: 10px 0 160px 0;
+    row-gap: 24px;
+  }
+  .skills-card {
+    height: 100%;
+    min-height: 408px;
+  }
+  .skill-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 556px) {
+  .content-wrapper {
+    padding: 10px 0 150px 0;
+    row-gap: 24px;
+  }
+  .skills-card {
+    height: 100%;
+    min-height: 578px;
+  }
+}

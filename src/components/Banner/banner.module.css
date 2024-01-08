@@ -1,0 +1,170 @@
+.bannerSection {
+  margin-bottom: -180px;
+  margin-top: -1px;
+}
+.banner {
+  background-color: #c472b3;
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: -35px;
+}
+.bannerTextBox{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.bannerH1 {
+  color: var(--White, #fff);
+  font-family: 'TT Hoves Pro Trial ExtraBold';
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  position: relative;
+}
+.bannerh1yellowtext {
+  display: inline-flex;
+  height: 50.5px;
+  color: var(--Primary-Primary-5, #fcc85a);
+}
+.bannerheadingh1 {
+  line-height: 60px;
+  margin-right: 15px;
+}
+.bannerP {
+  color: var(--White, #fff);
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.bannerImage {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+}
+.bannerImagesBox {
+  position: relative;
+}
+
+.swiperImageBox {
+  width: 298px;
+  height: 368px;
+  margin: auto;
+}
+.square {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  right: 5px;
+  animation: MoveUpDown 3s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 7px;
+  }
+}
+.squareStatic{
+  width: 10px;
+  height: 10px;
+  position: relative;
+  right: 5px;
+}
+.planeicon {
+  width: 92px;
+  height: 92px;
+}
+.planeIcon {
+  position: absolute;
+  left: 90px;
+  top: 92px;
+}
+
+.ringIcon {
+  position: absolute;
+  right: 145px;
+  top: 34px;
+}
+.ringicon {
+  width: 55px;
+  height: 35px;
+}
+.staricon {
+  width: 92px;
+  height: 92px;
+}
+.starIcon {
+  position: absolute;
+  right: 135px;
+  bottom: 83px;
+}
+.flowericon {
+  width: 92px;
+  height: 92px;
+}
+.flowerIcon {
+  position: absolute;
+  left: 90px;
+  bottom: -28px;
+}
+
+.curveImage {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 1100px) {
+  .banner {
+    margin-bottom: -1px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rowInverse {
+    flex-direction: column-reverse;
+  }
+  .bannerSection {
+    padding-top: 96px;
+  }
+  .bannerImagesBox {
+    margin-bottom: 15px;
+  }
+  .bannerH1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .flowerIcon {
+    left: 5px;
+    bottom: 50px;
+  }
+  .starIcon {
+    right: 65px;
+    bottom: 70px;
+  }
+  .ringIcon {
+    right: 50px;
+  }
+  .planeIcon {
+    left: 8px;
+    top: 80px;
+  }
+  .bannerheadingh1 {
+    line-height: 48px;
+  }
+  .bannerImage {
+    object-fit: contain;
+  }
+  .banner {
+    margin-bottom: -2px;
+    padding-top: 96px;
+    margin-top: -96px;
+  }
+  .bannerP {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,84 @@
+.containerBg {
+  background: url('/assets/images/join-tribe/join-tribe.png');
+  background-position: center;
+  padding-top: 230px;
+  padding-bottom: 230px;
+  min-height: 620px;
+  background-size: cover;
+  /* margin: -114px 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionContainer {
+  background-color: #fcf3dd;
+  padding: 40px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  outline: 1px solid #000000;
+  outline-offset: -1px;
+}
+.joinOurTribeBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.bannerHeading {
+  font-family: 'TT Hoves Pro Trial Bold';
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #392D20;
+}
+.bannerBodyText {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 15px 0;
+  font-family: 'Inter';
+  color: #616d60;
+}
+
+.contactBtn {
+  border-radius: 25px;
+  background-color: #aad59f;
+  width: 136px;
+  height: 48px;
+  font-size: 16px;
+  font-family: 'InterBold';
+  font-weight: 700;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.contactBtn:hover{
+  background: #7ED268;
+}
+@media screen and (max-width: 767px) {
+  .containerBg {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 594px;
+    padding-top: 216px;
+    padding-bottom: 216px;
+  }
+  .sectionContainer {
+    padding: 15px;
+  }
+  .art-girl {
+    width: 112px;
+    height: 116px;
+  }
+  .bannerHeading {
+    margin-top: 24px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
